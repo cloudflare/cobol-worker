@@ -1,0 +1,6 @@
+name = "cobol-worker"
+type = "webpack"
+account_id = "6bf9a4aaa894d38962d0bd8fd4a98f10"
+route = "cobol.speedcf.com/api"
+zone_id = "94a53dfbf824bef82b5f40333d627168"
+webpack_config = "webpack.config.js"
