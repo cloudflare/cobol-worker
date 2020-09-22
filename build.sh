@@ -18,7 +18,7 @@ docker run \
   -v /tmp/cobol-worker:/root/.emscripten_cache/ \
   -v $PWD:/worker \
   -v $PWD/build:/build \
-  xtuc/cobaul \
+  xtuc/cobweb \
   /worker/src/worker.cob
 
 sed -i.bu 's/import\.meta/({})/' build/out.js
