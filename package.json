@@ -1,7 +1,7 @@
 {
   "scripts": {
     "predeploy": "bash build.sh",
-    "deploy": "wrangler publish"
+    "deploy": "npx wrangler publish"
   },
   "dependencies": {
     "copy-webpack-plugin": "^5.1.1",

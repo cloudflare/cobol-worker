@@ -1,4 +1,5 @@
 import EM from "../build/out.js"
+import wasm from "../build/out.wasm"
 
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))

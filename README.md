@@ -5,7 +5,7 @@
 The possible picks are `rock`, `scissors` and `paper`.
 
 ```sh
-curl -d "pick=rock" https://cobol.speedcf.com/api | jq .
+curl -d "pick=rock" https://cobol.demos.cloudflare.com | jq .
 ```
 
 ## Deploy
